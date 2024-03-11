@@ -25,7 +25,7 @@ jobs:
         run: pip install -r azizmodule/requirements.txt
 
       - name: Test module structure
-        run: bash test.sh
+        run: bash test.sh 
 
       - name: Linting with Ruff
         run: ruff check azizmodule
