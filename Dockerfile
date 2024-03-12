@@ -1,8 +1,7 @@
-FROM python:3.9
+FROM python:3.10.12
 WORKDIR /app
-COPY . /app/azizmodule
+COPY . /app
 RUN pip install pytest
-RUN ls -la
 CMD ["pytest", "azizmodule/test_azizmodule.py"]
 
 
