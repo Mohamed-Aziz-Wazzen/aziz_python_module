@@ -1,5 +1,5 @@
 import unittest
-from azizmodule import additionner, soustraire, multiplier, diviser, puissance
+from azizmodule.azizmodule import additionner, soustraire, multiplier, diviser, puissance
 
 class TestAzizModule(unittest.TestCase):
 
