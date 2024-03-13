@@ -37,5 +37,4 @@ jobs:
       - name: Build Docker image
         run: docker build -t aziz_image .
 
-      - name: Run Docker container
-        run: docker run aziz_image
+     
